@@ -20,6 +20,24 @@ Ovotox is a future-focused company creating meaningful solutions across the inte
 - **Accessibility**: WCAG compliant with proper ARIA labels
 - **Performance Optimized**: Lazy loading and optimized assets
 
+## 🖼️ Screenshots
+
+<div align="center">
+
+### Home Page
+![Home Page](./screenshots/home.png)
+
+### About Page
+![About Page](./screenshots/about.png)
+
+### What We Do Page
+![Services Page](./screenshots/whatwedo.png)
+
+
+</div>
+
+*More screenshots available in the [screenshots folder](./screenshots)*
+
 ## 🎥 Video Demo
 
 [![Ovotox Website Demo](https://img.shields.io/badge/📺-Watch_Video_Demo-red)](./videos/Video_demo.webm)
