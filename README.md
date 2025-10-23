@@ -1,73 +1,54 @@
-# React + TypeScript + Vite
+# Ovotox - Creative Technology & Digital Innovation
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive website for Ovotox - a multidisciplinary company specializing in creative technology, digital innovation, and multimedia solutions.
 
-Currently, two official plugins are available:
+![Ovotox Website](https://img.shields.io/badge/Ovotox-Creative%20Technology-blue)
+![React](https://img.shields.io/badge/React-18.2.0-61dafb)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.0+-3178c6)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌟 Overview
 
-## React Compiler
+Ovotox is a future-focused company creating meaningful solutions across the intersections of creativity, technology, and human experience. This website showcases our services, projects, and vision through an immersive digital experience.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Key Features
 
-## Expanding the ESLint configuration
+- **Modern Design**: Clean, professional interface with smooth animations
+- **Fully Responsive**: Optimized for all devices and screen sizes
+- **Interactive Elements**: Engaging animations using Framer Motion
+- **Multi-page Navigation**: Seamless routing with React Router
+- **Contact Integration**: EmailJS-powered contact form
+- **Accessibility**: WCAG compliant with proper ARIA labels
+- **Performance Optimized**: Lazy loading and optimized assets
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🎥 Video Demo
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+[![Ovotox Website Demo](https://img.shields.io/badge/📺-Watch_Video_Demo-red)](./videos/Video_demo.webm)
+*Click above to watch the full website demo video*
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+### Demo Highlights
+- **Smooth Animations**: Framer Motion transitions and micro-interactions
+- **Responsive Design**: Mobile-first approach across all devices
+- **Interactive Components**: Partners carousel, service navigation, and contact form
+- **Performance**: Fast loading times and optimized user experience
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 🛠 Tech Stack
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### Frontend
+- **React 18** - Modern UI library
+- **TypeScript** - Type-safe development
+- **Framer Motion** - Smooth animations and transitions
+- **React Router** - Client-side routing
+- **React Hook Form** - Form validation and management
+- **EmailJS** - Contact form integration
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+### Styling
+- **CSS3** with custom properties (CSS Variables)
+- **Flexbox & Grid** - Modern layout techniques
+- **Responsive Design** - Mobile-first approach
+
+### Development Tools
+- **Vite** - Fast build tool and dev server
+- **ESLint** - Code linting
+- **Git** - Version control
+
